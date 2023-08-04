@@ -1,1 +1,1 @@
-A redo at my webpade; I already have a lot done, especially in terms of research, but I want to make it way prettier and more user friendly
+A redo at my webpade; I've done the research and have a very simple but at times confusingly coded (lol) page, but I want to make it way prettier and more user friendly
