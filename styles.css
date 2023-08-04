@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.background {
+    background: url(./images/casper_background.png) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    text-align:center;
+    flex-direction:column;
+    align-content: space-around;
+    padding-bottom:200px;
+    margin-bottom:50px;
+}
+
+.learn {
+    font-size:120px;
+    font-weight:bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-weight:bold;
+    padding-top:50px;
+    text-decoration: none;
+    color:black;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    background:
+            linear-gradient(to right,
+                rgba(100, 200, 200, 1),
+                rgba(100, 200, 200, 1)),
+            linear-gradient(to right,
+                rgba(255, 0, 0, 1),
+                rgba(255, 0, 180, 1),
+                rgba(0, 100, 200, 1));
+        background-size: 60% 5px;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        transition: 400ms;
+}
+
+a:hover{
+    background-size: 0 8px, 100% 3px;
+}
+
+#introduction {
+    text-align:center;
+}
+
+.statistics {
+    background-color: white;
+    color: rgb(119, 119, 119);
+    display: flex;
+}
+
+.card {
+    text-align: center;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.numbercard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom:50px;
+    padding: 80px;
+    font-size: 32px;
+    font-weight: 400;
+    border-image: linear-gradient(#37e0e6, #da37e6) 50 / 10px;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    background-color: white;
+}
+
+#quotes {
+    background: rgba(72, 168, 187, 0.3);
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    padding: 50px;
+    margin:32px;
+}
+
+.citations {
+    margin-bottom: 18px;
+    font-size:18px;
+}
+
+#email {
+    font-size:20px;
+    background-size: 30% 5px;
+    background-position: 50% 100%;
+}
+
+.header {
+    font-size:200px;
+    color:white;
+    margin-top:180px;
+    margin-bottom:250px;
+    padding:150px;
+    text-align:center;
+    font-weight:600;
+}
+
+.background_insomnia {
+    background: url(./images/insomnia_background.png) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: space-around;
+    padding-bottom: 200px;
+    margin-bottom: 50px;
+}
+
+.linksInsomnia {
+    color:white;
+    font-size:80px;
+    text-align:center;
+    font-weight:bold;
+}
+
+#home {
+    text-align:center;
+}
