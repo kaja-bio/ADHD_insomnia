@@ -151,6 +151,12 @@ a:hover{
     background-repeat: no-repeat;
     transition: 400ms;
         }
+
+.wannago {
+    color: white;
+        font-size: 80px;
+        text-align: center;
+        font-weight: bold;
 }
 
 #home {
@@ -172,3 +178,76 @@ a:hover{
 .paragraph {
     margin:0px 20px 0px 20px;
 }
+
+.background_ADHD{
+    background: url(./images/ADHD_background.png) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: space-around;
+    padding-bottom: 200px;
+    margin-bottom: 50px;
+}
+
+.linksADHD {
+        color: black;
+        font-size: 80px;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 50px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+        background:
+            linear-gradient(to right,
+                rgba(100, 200, 200, 1),
+                rgba(100, 200, 200, 1)),
+            linear-gradient(to right,
+                rgba(255, 0, 0, 1),
+                rgba(255, 0, 180, 1),
+                rgba(0, 100, 200, 1));
+        background-size: 60% 5px;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        transition: 400ms;
+    }
+
+    .headerADHD {
+        font-size: 200px;
+        color: black;
+        margin-top: 400px;
+        margin-bottom: 250px;
+        padding: 150px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .subheaderADHD {
+        color: black;
+        font-size: 80px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+     .background_comorbidity {
+            background: url(./images/comorbidty_background.png) no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-content: space-around;
+            padding-bottom: 200px;
+            margin-bottom: 50px;
+        }
+
+        .headercomorbidity {
+            font-size: 100px;
+            color: black;
+            margin-top: 150px;
+            margin-bottom: 250px;
+            padding: 150px;
+            text-align: center;
+            font-weight: 600;
+        }
