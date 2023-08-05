@@ -25,7 +25,7 @@ ul {
     list-style-type: none;
 }
 
-a {
+.linkshome {
     font-weight:bold;
     padding-top:50px;
     text-decoration: none;
@@ -133,8 +133,42 @@ a:hover{
     font-size:80px;
     text-align:center;
     font-weight:bold;
+    padding-top: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    background:
+        linear-gradient(to right,
+             rgba(100, 200, 200, 1),
+             rgba(100, 200, 200, 1)),
+        linear-gradient(to right,
+                rgba(255, 0, 0, 1),
+             rgba(255, 0, 180, 1),
+                rgba(0, 100, 200, 1));
+    background-size: 60% 5px;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    transition: 400ms;
+        }
 }
 
 #home {
     text-align:center;
+}
+
+.comic {
+    width:800px;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+
+.subtitle{
+    text-align:center;
+}
+
+.paragraph {
+    margin:0px 20px 0px 20px;
 }
