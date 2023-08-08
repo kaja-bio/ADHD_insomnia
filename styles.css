@@ -108,10 +108,10 @@ a:hover{
 }
 
 .header {
-    font-size:200px;
+    font-size:150px;
     color:white;
-    margin-top:180px;
-    margin-bottom:250px;
+    margin-top: 150px;
+    margin-bottom: 250px;
     padding:150px;
     text-align:center;
     font-weight:600;
@@ -255,4 +255,8 @@ a:hover{
 
 li {
     margin-top:20px;
+}
+
+.footnotes {
+    font-size:15px;
 }
