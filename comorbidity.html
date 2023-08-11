@@ -351,6 +351,21 @@
         Goodnight!
 </p>
 
+<section class="glossary">
+    <script>
+        const boldElements = document.querySelectorAll('strong');
+
+        boldElements.forEach(boldElement => {
+            boldElement.addEventListener('click', () => {
+                const term = boldElement.textContent;
+                const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(term)}`;
+                window.open(searchUrl, '_blank');
+            });
+        });
+
+    </script>
+</section>
+
     <section class="references">
         <h2 class="subtitle">References</h2>
         <ul id="referencescomorbidity">

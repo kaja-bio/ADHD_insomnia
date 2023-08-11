@@ -112,9 +112,8 @@
         retina and help convert light into an electrochemical signal that your body can recognize (Terakita, 2005). For regular
         vision, this essentially works like this:</p>
         <img class="comic" src="" alt="Opsins">
-        <p class="paragraph">A specific opsin called <strong>melanopsin</strong> is in charge of this. And here’s a fun fact - melanopsin doesn’t depend on the classic rods and cones in your eye to transmit this information. Why is this so cool? Because it means that even people born with degenerating retinas, even once it’s practically all degenerated, still have function regulation of their
-        sleep cycles by light! So even though someone might be functionally blind, unless there is significant damage to the
-        whole eye or the optic nerve, their body still knows whether it’s light outside (Palczewski, 2012)!</p>
+        <p class="paragraph">A specific opsin called <strong>melanopsin</strong> is in charge of this. And here’s a fun fact - melanopsin doesn’t depend on the classic rods and cones in your eye to transmit this information. Why is this so cool? Because it means that people with degenerating retinas still have function regulation of their
+        sleep cycles by light - even once their eyes have degenerated to the point of having almost no vision left! So even though someone might be functionally blind, unless there is significant damage to the whole eye or the optic nerve, their body still knows whether it’s light outside (Palczewski, 2012)!</p>
         <img class="comic" src="" alt="Light and sleep">
         <p class="paragraph">These are some of the primary brain structures involved in sleep:</p>
         <img class="comic" src="" alt="Sleep brain structures">
@@ -412,6 +411,20 @@
                     Neuroscience, 28(40), 10167–10184. https://doi.org/10.1523/jneurosci.1809-08.2008</li>
             </ul>
         </section>
+    <section class="glossary">
+        <script>
+            const boldElements = document.querySelectorAll('strong');
+
+            boldElements.forEach(boldElement => {
+                boldElement.addEventListener('click', () => {
+                    const term = boldElement.textContent;
+                    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(term)}`;
+                    window.open(searchUrl, '_blank');
+                });
+            });
+
+        </script>
+    </section>
     
         <script>
             let references = document.getElementById("referencesinsomnia")

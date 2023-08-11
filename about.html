@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project background</title>
+        <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+        <header>
+            <nav>
+                <div class="background_about">
+                    <div class="headercomorbidity">About this project</div>
+                    <div class="subheaderADHD">I want to go...</div>
+                    <ul>
+                        <div class="box">
+                            <li><a class="linksADHD" href="./index.html">Home</a></li>
+                        </div>
+                        <div class="box">
+                            <li><a class="linksADHD" href="./ADHD.html">Learn about ADHD</a></li>
+                            </div>
+                        <div class="box">
+                            <li><a class="linksADHD" href="./insomnia.html">Learn about insomnia</a></li>
+                        </div>
+                        <div class="box">
+                            <li><a class="linksADHD" href="./comorbidity.html">Learn about insomnia and ADHD</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+            
+            <section id="about">
+                <h2 class="subtitle">What is this project and why did I start it?</h2>
+                <p class="paragraph">I started this project when I was looking around for something to do. I wanted to learn how to code, so I started on <a href="https://www.theodinproject.com/dashboard">the ODIN project</a>. I would highly recommend it for any beginners looking to start in web development, or even more intermediate coders who would like to learn a new language or improve their Javascript or Ruby skills.</p>
+                <p></p>
+                <p class="paragraph">Once I had a base of web development knowledge, I wanted to actually <em>apply</em> those skills somewhere. I'm currently a third year neuroscience student at the University of Edinburgh, and I've always been very passionate about mental health and sleep. I wanted to create a website that serves to educate people, in a fun way, about a topic which is currently underfunded and underresearched.</p>
+                <p></p>
+                <p class="paragraph">Sleep is incredibly important for physical and mental wellbeing, something I want to emphasize with this. Structuring a society which doesn't allow people to sleep enough, the rise of a "grind" culture which promotes foregoing sleep in favour of work, and an almost competitive quality to missing sleep (I swear, if another person tells me 'well <em>I</em> only slept <em>four</em> hours last night' when I share that I'm tired) are not in line with healthy, happy people.</p>
+                    <section id="contact">
+                        <h2>Contact Me</h2>
+                        <p>E-mail: <a id="email" href="mailto:kkubickova03@gmail.com">kkubickova03@gmail.com</a></p>
+                    </section>
+
+    <section class="glossary">
+        <script>
+            const boldElements = document.querySelectorAll('strong');
+
+            boldElements.forEach(boldElement => {
+                boldElement.addEventListener('click', () => {
+                    const term = boldElement.textContent;
+                    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(term)}`;
+                    window.open(searchUrl, '_blank');
+                });
+            });
+
+        </script>
+    </section>
+                    <footer>
+                        <p>&copy; 2023 Kaja Kubickova, University of Edinburgh</p>
+                    </footer>
+</body>
+</html>

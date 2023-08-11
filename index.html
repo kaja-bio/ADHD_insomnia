@@ -34,8 +34,8 @@
         <h2>Meet Casper</h2>
         <div class="comic">
             <img src="./images/meetcasper.png" alt="Meet Casper">
-            <p>This is Casper. He's a bit confused sometimes, but a lovely guy (ghost). He has ADHD, but he doesn't let that define him. He mostly just defines himself as "ghost". His hobbies include haunting, screaming, wearing unflattering bedsheets, and bothering his friend Kaja. </p>
-            <p>He has as of yet been unsuccessful with the above Tinder bio. He argues that this is primarily because of ghost prejudice. </p>
+            <p>This is Casper. He's a bit confused sometimes, but a lovely guy (ghost). He has ADHD, but he doesn't let that define him. He mostly just defines himself as "ghost". His hobbies include haunting, screaming, wearing unflattering bedsheets, and bothering his friend Cara. </p>
+            <p>He has as of yet been unsuccessful with the above Tinder bio. He argues that this is primarily because of ghost prejudice. Cara argues it's because it's a terrible bio.</p>
             <p>ADHD and insomnia - how are they related? The fact is, the conditions are comorbid and occur together at high rates, yet there's not a lot of research into either causes or treatment. This page is meant to highlight this and serve to educate (in preferably a relatively fun way) about the research done so far on this topic.</p>
         </div>
         <div class="statistics">
@@ -55,26 +55,42 @@
             </div>
         </div>
     </section>
+    
+    <section class="glossary">
+        <script>
+            const boldElements = document.querySelectorAll('strong');
 
+            boldElements.forEach(boldElement => {
+                boldElement.addEventListener('click', () => {
+                    const term = boldElement.textContent;
+                    const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(term)}`;
+                    window.open(searchUrl, '_blank');
+                });
+            });
+
+        </script>
+    </section>
     <section id="quotes">
         <p><em>"The best bridge between despair and hope is a good night's sleep" </em></p>
         <p> - neuroscientist and sleep researcher Matthew Walker in his book 'Why We Sleep'</p>
         </section>
-    <div class="citations">
+    <div class="references">
         <h2>References</h1>
-            <p>Fadeuilhe, C., Daigre, C., Richarte, V., Grau-López, L., Palma-Álvarez, R. F., Corrales, M., & Ramos-Quiroga,
+            <ul>
+            <li>Fadeuilhe, C., Daigre, C., Richarte, V., Grau-López, L., Palma-Álvarez, R. F., Corrales, M., & Ramos-Quiroga,
                 J. A. (2021). Insomnia Disorder in Adult Attention-Deficit/Hyperactivity Disorder Patients: Clinical,
                 Comorbidity, and Treatment Correlates. Frontiers in psychiatry, 12, 663889.
-                https://doi.org/10.3389/fpsyt.2021.663889</p>
-            <p>Jan, Y. W., Yang, C. M., & Huang, Y. S. (2011). Comorbidity and confounding factors in
+                https://doi.org/10.3389/fpsyt.2021.663889</li>
+            <li>Jan, Y. W., Yang, C. M., & Huang, Y. S. (2011). Comorbidity and confounding factors in
                 attention-deficit/hyperactivity disorder and sleep disorders in children. Psychology research and behavior
-                management, 4, 139–150. https://doi.org/10.2147/PRBM.S14055</p>
-            <p>Katzman MA, Bilkey TS, Chokka PR, Fallu A, Klassen LJ. Adult ADHD and comorbid disorders: clinical
+                management, 4, 139–150. https://doi.org/10.2147/PRBM.S14055</li>
+            <li>Katzman MA, Bilkey TS, Chokka PR, Fallu A, Klassen LJ. Adult ADHD and comorbid disorders: clinical
                 implications of a dimensional approach. BMC Psychiatry. 2017 Aug 22;17(1):302. doi:
-                10.1186/s12888-017-1463-3. PMID: 28830387; PMCID: PMC5567978.</p>
-            <p>Salari, N., Ghasemi, H., Abdoli, N. et al. The global prevalence of ADHD in children and adolescents: a
+                10.1186/s12888-017-1463-3. PMID: 28830387; PMCID: PMC5567978.</li>
+            <li>Salari, N., Ghasemi, H., Abdoli, N. et al. The global prevalence of ADHD in children and adolescents: a
                 systematic review and meta-analysis. Ital J Pediatr 49, 48 (2023).
-                https://doi.org/10.1186/s13052-023-01456-1</p>
+                https://doi.org/10.1186/s13052-023-01456-1</li>
+            </ul>
     </div>
 
     <section id="contact">

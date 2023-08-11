@@ -190,6 +190,17 @@ a:hover{
     margin-bottom: 50px;
 }
 
+.background_about {
+    background: url(./images/about_background.png) no-repeat center center fixed;
+    background-size: contain;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: space-around;
+    padding-bottom: 200px;
+    margin-bottom: 50px;
+}
+
 .linksADHD {
         color: black;
         font-size: 80px;
@@ -215,7 +226,7 @@ a:hover{
     }
 
     .headerADHD {
-        font-size: 200px;
+        font-size: 150px;
         color: black;
         margin-top: 400px;
         margin-bottom: 250px;
@@ -243,7 +254,7 @@ a:hover{
         }
 
         .headercomorbidity {
-            font-size: 100px;
+            font-size: 150px;
             color: black;
             margin-top: 150px;
             margin-bottom: 250px;
@@ -254,9 +265,20 @@ a:hover{
 
 
 li {
-    margin-top:20px;
+    margin-top:25px;
+}
+
+.references {
+    padding-right:15px;
+    padding-bottom:20px;
 }
 
 .footnotes {
+    margin-left:15px;
     font-size:15px;
+}
+
+strong {
+    cursor:pointer;
+    text-decoration:underline;
 }

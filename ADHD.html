@@ -66,7 +66,7 @@
         at two major things: the dysfunction in the reward cascade and the gross brain structure (gross as in, like, big or
         total, not gross as in disgusting. We’ll look at why the brain is gross later. Don’t skip ahead though, you’ll spoil the
         ending for yourselves. <sup>2</sup></p>
-        <div class="footnotes"><p><sup>2</sup> Okay fine, I'll spoil it for you already. The brain is gross because it's folds of wet fat sitting inside a bone-cave.</p></div>
+        <p class="footnotes"><sup>2</sup> Okay fine, I'll spoil it for you already. The brain is gross because it's folds of wet fat sitting inside a bone-cave.</p>
         <h2 class="subtitle">The Reward Cascade</h2>
         <div class="paragraph"><strong>Reward deficiency syndrome (RDS) </strong> involves a group of disorders where there is an issue in the brain's reward mechanisms due to dopamine resistance. Dopamine is a neurotransmitter,
                 a chemical messenger that carries signals from one neuron to another, which is heavily involved in the brain's
@@ -102,7 +102,7 @@
                 projects to limbic
                 and cortical areas. The mesolimbic pathway is the major reward-related center in the brain, projecting from the VTA
                 through to
-                the <strong>nucleus accumbens, amygdala </strong> and <strong>hippocampus</strong>.
+                the <strong>nucleus accumbens</strong>, <strong>amygdala </strong> and <strong>hippocampus</strong>.
             </div>
             <div class="paragraph">The <strong>nucleus accumbens</strong> processes the rewarding stimuli that come in and helps
                 reinforce it. We get food, it tastes good, the nucleus accumbens says “Hey, let's do that again!”. It deals with
@@ -546,16 +546,24 @@
                 accidentally steering your car off a cliff. So it makes sense you’d feel less hungry taking some of the drugs for
                 ADHD!</div>
             <img class="comic" src="" alt="sympathetic nervous diversion">
-            <div class="paragraph"></div>
-            <div class="paragraph"></div>
-            <h2 class="subtitle">References</h2>
-        <p class="paragraph"></p>
-        <p class="paragraph"></p>
-        <p class="paragraph"></p>
-        <p class="paragraph"></p>
     </section>
 
+    <section class="glossary">
+        <script>
+            const boldElements = document.querySelectorAll('strong');
+
+                boldElements.forEach(boldElement => {
+                    boldElement.addEventListener('click', () => {
+                        const term = boldElement.textContent;
+                        const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(term)}`;
+                        window.open(searchUrl, '_blank');
+                    });
+                });
+
+    </script>
+    </section> 
     <section class="references">
+        <h2 class="subtitle">References</h2>
         <ul id="referencesadhd">
         <li>N/A, Psychopharmacology Institute. (n.d.). Retrieved August 2, 2023, from
         https://psychopharmacologyinstitute.com/section/psychostimulants-for-adult-adhd-formulations-prescribing-tips-adverse-effects-and-monitoring-2510-4923</li>
